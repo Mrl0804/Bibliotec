@@ -527,4 +527,50 @@ footer span {
         display: none;
     }
 
+    /* FOOTER */
+
+    footer {
+        padding: 50px 40px;
+    }
+
+    footer .main {
+        flex-direction: column;
+        gap: 100px;
+    }
+
+    .rodape-logos {
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+
+        gap: 30px;
+    }
+
+    .rodape-logos img {
+        width: 40%;
+    }
+
+    .rodape-informacoes {
+        gap: 30px;
+    }
+
+    .rodape-informacoes p {
+        font-size: 1.5em;
+    }
+
+    .nav-footer a, .footer-inferior {
+        font-size: 1.2em;
+    }
+
+    footer span {
+        margin: 50px 0 30px;
+    }
+
+    .footer {
+        flex-direction: column;
+        text-align: right;
+    }
+
+
+
 }
